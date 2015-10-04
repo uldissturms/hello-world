@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>hello-world-fsharp</id>
-        <version>0.0.3</version>
+        <version>0.0.4</version>
         <authors>Uldis Sturms</authors>
         <owners>Uldis Sturms</owners>
         <projectUrl>http://github.com/uldissturms/hello-world</projectUrl>
@@ -11,7 +11,7 @@
         <copyright>Copyright 2015</copyright>
     </metadata>
     <files>
-        <file src="packages\FSharp.Core\lib\portable-net45+monoandroid10+monotouch10+xamarinios10\FSharp.Core.dll" target="FSharp.Core.dll" />
+        <file src="packages\FSharp.Core\lib\net40\FSharp.Core.dll" target="FSharp.Core.dll" />
         <file src="Program.exe" target="Program.exe" />
     </files>
 </package>
