@@ -1,7 +1,4 @@
-open System
-
-[<EntryPoint>]
-let main argv = 
-    printfn "Hello World" 
-    Console.ReadLine() |> ignore
-    0
+open Suave
+open Suave.Http.Successful
+open Suave.Web
+startWebServer defaultConfig (OK "Hello World")
