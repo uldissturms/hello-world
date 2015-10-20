@@ -5,5 +5,5 @@ then
   start Program.exe
 else
   # use mono
-  mono Program.exe &
+  nohup mono Program.exe &
 fi

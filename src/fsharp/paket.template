@@ -1,0 +1,11 @@
+type file
+id hello-world-fsharp
+version 0.0.11
+authors Uldis Sturms
+description
+  This is a simple fsharp Hello World site
+files
+  *.exe ==> *.exe
+  *.sh ==> *.sh
+  packages\FSharp.Core\lib\net40\FSharp.Core.dll ==> .
+  packages\Suave\lib\net40\Suave.dll ==> .
