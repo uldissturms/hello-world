@@ -1,0 +1,9 @@
+type file
+id hello-world-nodejs
+version 0.0.1
+authors Uldis Sturms
+description
+  This is a simple nodejs Hello World site
+files
+  *.js ==> .
+  *.sh ==> .
